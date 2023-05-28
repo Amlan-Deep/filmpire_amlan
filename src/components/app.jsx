@@ -1,20 +1,20 @@
 import React from 'react';
 import {CssBaseline} from '@mui/material';
-import {Route, Switch} from 'react-router-dom';
+import {Route, Routes} from 'react-router-dom';
 const App = () => {
   return (
     <div>
    
       <CssBaseline/>
       <main>
-      <Switch>
-        <Route path='/'>
-          <h1>Home</h1>
+      <Routes>
+        <Route exact path="/" element = {<h1>Home</h1>}>
+          
         </Route>
-        <Route path='/movies'>
-          <h1>Movies</h1>
+        <Route exact path="/movies" element={<h1>Movies</h1>}>
+          
         </Route>
-      </Switch>
+        </Routes>
       </main>
     </div>
   )
