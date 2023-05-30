@@ -1,4 +1,4 @@
-# FILMPIRE - Shubham Kadam
+# FILMPIRE - Amlan
 
 [View Demo](https://filmpire-ssk.netlify.app/)
 
