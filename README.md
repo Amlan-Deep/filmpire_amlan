@@ -1,80 +1,78 @@
-# Filmpire
+# FILMPIRE - Shubham Kadam
 
-![App Screenshot](src/assets/images/Filmpire.jpg)
+[View Demo](https://filmpire-ssk.netlify.app/)
 
-Filmpire combines the desire to unleash powerful creativity with the industry's most advanced JavaScript tools including React.js, Redux, Material UI, Alan AI, and more.
+## About the Project
 
-This application includes user authentication, dark mode, sort movie on the basis of categories or genres, viewing movie and actor details, adding a movie to favorites or watchlist and many more functionalities. 
+![1](readme_img/1.png)
 
-Alan works as in-app voice assistant which create conversational experiences for filmpire.
+Features include:
 
-# Getting Started with Create React App
+-   User Authentication,
+-   Light and Dark mode,
+-   API calls with Axios and Redux,
+-   Actors and Movie Details Page,
+-   Watchlist and List of Favorite Movies,
+-   Movie Search Functionality,
+-   Alan AI Voice Functionality and many more.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Alan works as an in-app voice assistant for the Filmpire project.
 
-## Available Scripts
+Try clicking on the blue mic icon on the bottom right of the page and try saying, "Search Batman" or "Make it light/ Make it dark" or say "Surprise me".
 
-In the project directory, you can run:
+## Getting Started
 
-### `npm start`
+To get a local copy up and running follow these simple steps.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+List of things you need to use and how to install them:
 
-### `npm test`
+-   npm
+    ```sh
+    npm install npm@latest -g
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
 
-### `npm run build`
+Setup:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Get a free TMDB API Key at [https://www.themoviedb.org/](https://www.themoviedb.org/).
+2. Clone the repo:
+    ```sh
+    git clone https://github.com/ShubhamSKadam/filmpire-AI_Powered_Movie_App.git
+    ```
+3. Install NPM packages:
+    ```sh
+    npm install
+    ```
+    Note: If you get the peer dependency error :
+    ```sh
+    npm install --legacy-peer-deps
+    ```
+4. Create your `.env` file as it is instructed in `.env.example`.
+5. Enter your TMDB API key in your `.env`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ```sh
+    REACT_APP_TMDB_KEY=<put your key here>
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- USAGE EXAMPLES -->
 
-### `npm run eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+_For more detailes regarding TMDB API calls, please refer to the [Documentation](https://developers.themoviedb.org/3/getting-started/introduction)._
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+See the [open issues](https://github.com/ShubhamSKadam/filmpire-AI_Powered_Movie_App/issues) for a full list of proposed features (and known issues).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contributing
+Contributions are what makes the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+If you have a suggestion that would make this better, please fork the repo and create a pull request. 
+Don't forget to give the project a star⭐! Thanks again!
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Fork the Project
+2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
+3. Commit your Changes (git commit -m 'Add some AmazingFeature')
+4. Push to the Branch (git push origin feature/AmazingFeature)
+5. Open a Pull Request
